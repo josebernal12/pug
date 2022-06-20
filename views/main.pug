@@ -1,0 +1,16 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title app
+    body 
+    div(style="background-color: grey; width: 900px; height: 500px; margin: 0px auto; border:  1px solid black;")
+     form(action="/producto" method="post")
+       input(type="text" placeholder="Producto" name = "tittle")
+       input(type="number" placeholder="Precio" name = "price")
+       input(type="text" placeholder="Thumbnail" name="thumbnail")
+       input(type="submit" value = "Buscar")  
+    
+    
+     block content   
